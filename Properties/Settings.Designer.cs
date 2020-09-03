@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Binary_Simple.Properties
+namespace Simple_Binary.Properties
 {
 
 

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Binary_Simple
+namespace Simple_Binary
 {
     static class Program
     {
@@ -13,7 +13,7 @@ namespace Binary_Simple
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form());
+            Application.Run(new MainForm());
         }
     }
 }
