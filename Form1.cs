@@ -50,8 +50,8 @@ namespace Simple_Binary
             {
                 values[i] = values[i - 1] * 2;
                 labels[i].Text = values[i].ToString();
-            }
-            lblResult.Text = result.ToString();
+            }            
+            tbResult.Text = result.ToString();
         }
 
         /// <summary>
@@ -65,12 +65,12 @@ namespace Simple_Binary
             if (button.Text == "0")
             {
                 button.Text = "1";
-                lblResult.Text = (Convert.ToInt32(lblResult.Text) + Convert.ToInt32(label.Text)).ToString();
+                tbResult.Text = (Convert.ToInt32(tbResult.Text) + Convert.ToInt32(label.Text)).ToString();
             }
             else
             {
                 button.Text = "0";
-                lblResult.Text = (Convert.ToInt32(lblResult.Text) - Convert.ToInt32(label.Text)).ToString();
+                tbResult.Text = (Convert.ToInt32(tbResult.Text) - Convert.ToInt32(label.Text)).ToString();
             }
         }
 

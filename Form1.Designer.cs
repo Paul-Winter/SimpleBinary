@@ -45,7 +45,7 @@
             this.lbl32 = new System.Windows.Forms.Label();
             this.lbl64 = new System.Windows.Forms.Label();
             this.lbl128 = new System.Windows.Forms.Label();
-            this.lblResult = new System.Windows.Forms.Label();
+            this.tbResult = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btn_128
@@ -216,22 +216,20 @@
             this.lbl128.TabIndex = 25;
             this.lbl128.Text = "0";
             // 
-            // lblResult
+            // tbResult
             // 
-            this.lblResult.AutoSize = true;
-            this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblResult.Location = new System.Drawing.Point(306, 245);
-            this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(99, 108);
-            this.lblResult.TabIndex = 26;
-            this.lblResult.Text = "0";
+            this.tbResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tbResult.Location = new System.Drawing.Point(315, 237);
+            this.tbResult.Name = "tbResult";
+            this.tbResult.Size = new System.Drawing.Size(190, 116);
+            this.tbResult.TabIndex = 27;
             // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(819, 387);
-            this.Controls.Add(this.lblResult);
+            this.Controls.Add(this.tbResult);
             this.Controls.Add(this.lbl128);
             this.Controls.Add(this.lbl64);
             this.Controls.Add(this.lbl32);
@@ -279,7 +277,7 @@
         private System.Windows.Forms.Label lbl32;
         private System.Windows.Forms.Label lbl64;
         private System.Windows.Forms.Label lbl128;
-        private System.Windows.Forms.Label lblResult;
+        private System.Windows.Forms.TextBox tbResult;
     }
 }
 
