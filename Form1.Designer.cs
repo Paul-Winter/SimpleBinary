@@ -221,8 +221,12 @@
             this.tbResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbResult.Location = new System.Drawing.Point(315, 237);
             this.tbResult.Name = "tbResult";
+            this.tbResult.ReadOnly = true;
+            this.tbResult.ShortcutsEnabled = false;
             this.tbResult.Size = new System.Drawing.Size(190, 116);
             this.tbResult.TabIndex = 27;
+            this.tbResult.TabStop = false;
+            this.tbResult.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // MainForm
             // 
